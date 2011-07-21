@@ -1,6 +1,3 @@
-ImpactJS Scene Manager
-============
-
 #### Scene Management Plugin for ImpactJS ####
 
 Scene Manager is a plugin for the [ImpactJS game engine](http://www.impactjs.com).
