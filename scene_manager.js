@@ -1,6 +1,6 @@
 /*
 Plugin Name: Scene Manager
-Plugin URI: 
+Plugin URI: https://github.com/samgreen/ImpactJS-Scene-Manager
 Description: This plugin allows you to manage the various scenes of your game 
 			 more efficiently. No longer do you have to declare a mountain of 
 			 states to effectively separate the various screens of your game.
@@ -9,7 +9,8 @@ Current Revision Date: July 18 2011
 First Revision Date: July 13 2011
 Requires: ImpactJS
 Author: Sam Green
-Author URI: 
+Author URI: http://samgreen.co
+
 Changelog
 ---------
 0.2: Added lazy loading to font in case it is not being used.
