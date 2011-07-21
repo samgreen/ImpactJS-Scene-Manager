@@ -33,6 +33,7 @@ immediately, you would do something like the following:
 
 
 ### Usage ###
+
 These methods will allow you to manage the stack of scenes currently being maintained by the 
 Scene Manager.
 
@@ -57,6 +58,10 @@ Set the stack of scenes to the scenes contained in the array parameters (useful 
 	this.sceneManager.setScenes( [ menuScene, gameScene, optionScene ] );
 
 ### Scenes ###
+
 The Scene Manager class also declares a Scene class. This is a subclass of game. You may optionally 
 initialize the scene with a title, in which case the title will be drawn at the center top of the
-scene using the default font.
+scene using the default font. All scenes provide a method to determine if they are currently being updated 
+and drawn:
+
+	myScene.isTopScene() // true, means the current scene is being drawn and updated

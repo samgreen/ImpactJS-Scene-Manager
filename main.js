@@ -58,9 +58,9 @@ ig.module(
 			ig.system.context.textAlign = 'center';
 
 			// Menu Text
-            ig.system.context.font = 'bold 36px sans-serif';
-            ig.system.context.fillText( 'Main Menu', this.center.x, this.center.y - 40);
-            ig.system.context.fillText( 'Click this screen to continue', this.center.x, this.center.y + 40);
+			ig.system.context.font = 'bold 36px sans-serif';
+			ig.system.context.fillText( 'Main Menu', this.center.x, this.center.y - 40);
+			ig.system.context.fillText( 'Click this screen to continue', this.center.x, this.center.y + 40);
 
 			// Restore the previous context
 			ig.system.context.restore();
@@ -116,10 +116,10 @@ ig.module(
 			ig.system.context.textAlign = 'center';
 
 			// Game Text
-            ig.system.context.font = 'bold 36px sans-serif';
-            ig.system.context.fillText( 'Click as fast as you can!', this.center.x, this.center.y - 40 );
-            ig.system.context.fillText( this.clickCount + ' clicks', this.center.x, this.center.y + 40 );
-            ig.system.context.fillText( Math.abs( this.gameTimer.delta() ) + ' seconds left!', this.center.x, this.center.y + 80 );
+			ig.system.context.font = 'bold 36px sans-serif';
+			ig.system.context.fillText( 'Click as fast as you can!', this.center.x, this.center.y - 40 );
+			ig.system.context.fillText( this.clickCount + ' clicks', this.center.x, this.center.y + 40 );
+			ig.system.context.fillText( Math.abs( this.gameTimer.delta() ) + ' seconds left!', this.center.x, this.center.y + 80 );
 
 			// Restore the previous context
 			ig.system.context.restore();

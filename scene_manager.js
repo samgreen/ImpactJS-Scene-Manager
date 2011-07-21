@@ -82,28 +82,28 @@ ig.module(
 		
 		// This class is a singleton
 		staticInstantiate: function() {
-	        if( SceneManager.instance == null ) {
-	            return null;
-	        }
-	        else {
-	            return SceneManager.instance;
-	        }
+		    if( SceneManager.instance == null ) {
+		        return null;
+		    }
+		    else {
+		        return SceneManager.instance;
+		    }
 		},
-		
+
 		init: function() {
 			// Ensure the reference is set so no other classes will initialize another sceneManager
 			SceneManager.instance = this;
-	    },
-    
+		},
+
 		updateScene: function() {
 			// Grab the scene from the top of the stack
 			var currentScene = this.sceneStack.last();
-			
+
 			if (currentScene instanceof Scene) {
 				// Update all the entities in the current scene
 				currentScene.update();
 			}
-	    },
+		},
 		
 		// Draw the current scene
 		drawScene: function() {
