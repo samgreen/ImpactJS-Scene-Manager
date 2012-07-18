@@ -51,6 +51,8 @@ ig.module(
 		
 		update: function() {
 			this.parent();
+			
+			ig.game.collisionMap = this.collisionMap;
 		},
 		
 		draw: function() {
